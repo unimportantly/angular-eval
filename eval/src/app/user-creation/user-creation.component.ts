@@ -31,7 +31,12 @@ export class UserCreationComponent implements OnInit {
       error: err => console.error(err),
       complete: () => {
         console.log("character created");
-        this.characterComp.getAll();
+        if (this.characterComp.characters[0].active === true) {
+          this.characterComp.showActives();
+        }
+        else if  (!this.characterComp.characters[0].active === true){ 
+          this.characterComp.showInactives();
+        }
         this.form.setValue({
           title: null,
           id: null,

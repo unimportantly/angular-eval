@@ -19,14 +19,14 @@
       "id": 9,
       "key": "Fiddlesticks",
       "name": "Fiddlesticks",
-      "active": true
+      "active": false
     },
     {
       "title": "the Demon Jester",
       "id": 35,
       "key": "Shaco",
       "name": "Shaco",
-      "active": true
+      "active": false
     },
     {
       "title": "the Uncaged Wrath of Zaun",
@@ -470,46 +470,18 @@
       "active": true
     },
     {
-      "title": "the Master Tactician",
-      "id": 50,
-      "key": "Swain",
-      "name": "Swain",
-      "active": true
-    },
-    {
-      "title": "the Wandering Caretaker",
-      "id": 432,
-      "key": "Bard",
-      "name": "Bard",
-      "active": true
-    },
-    {
-      "title": "The Undead Juggernaut",
-      "id": 14,
-      "key": "Sion",
-      "name": "Sion",
-      "active": true
-    },
-    {
-      "title": "the Night Hunter",
-      "id": 67,
-      "key": "Vayne",
-      "name": "Vayne",
-      "active": true
-    },
-    {
       "title": "the Curator of the Sands",
       "id": 75,
       "key": "Nasus",
       "name": "Nasus",
-      "active": true
+      "active": false
     },
     {
       "title": "the Shadow Reaper",
       "id": 141,
       "key": "Kayn",
       "name": "Kayn",
-      "active": true
+      "active": false
     },
     {
       "title": "the Card Master",
@@ -953,10 +925,10 @@
       "active": false
     },
     {
-      "title": "the Deceiver",
-      "id": 7,
-      "key": "Leblanc",
-      "name": "LeBlanc",
+      "title": "dazdefr",
+      "id": "888866666",
+      "key": "dqzdqz",
+      "name": "zetgrhy",
       "active": false
     }
   ]

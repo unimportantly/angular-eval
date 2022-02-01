@@ -55,7 +55,12 @@ export class CharacterDetailsComponent implements OnInit {
       next: () => null,
       error: err => console.error(err),
       complete: () => {console.log("character deleted");
-      this.getAll();
+      if (this.activesShown === true) {
+        this.showActives();
+      }
+      else { 
+        this.showInactives();
+      }
     }
     })
   }

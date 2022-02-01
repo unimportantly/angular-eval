@@ -1,0 +1,48 @@
+@import "primeicons/primeicons.css";
+@import "primeng/resources/themes/lara-light-indigo/theme.css";
+@import "primeng/resources/primeng.min.css";
+
+
+table {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: burlywood;
+    
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+button {
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 3px;
+}

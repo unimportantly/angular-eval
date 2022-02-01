@@ -1,0 +1,23 @@
+<app-user-creation></app-user-creation>
+<div class="buttons">
+    <button type="submit" (click)="showActives()">Show active characters</button>
+    <button type="button" (click)="showInactives()">Show inactive characters</button>
+</div>
+<table>
+        <tr>
+            <th>Title</th>
+            <th>Key</th>
+            <th>Name</th>
+            <th>Active</th>
+            <th>Delete</th>
+        </tr>
+        <tr *ngFor="let character of characters">
+            <td>{{character.title}}</td>
+            <td>{{character.key}}</td>
+            <td>{{character.name}}</td>
+            <td><input type="checkbox" [(ngModel)]="character.active"> 
+                <button type="submit" (click)="modifyCharacter(character)">Change status</button>
+            </td>
+            <td><button type="submit" (click)="delete(character)">Delete</button></td>
+        </tr>
+</table>
